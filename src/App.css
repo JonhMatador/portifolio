@@ -7,6 +7,8 @@ body {
   color: black; /* Cor do texto padrão */
   transition: background-color 0.3s, color 0.3s; /* Transição suave */
   min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+  display: flex; /* Flexbox para alinhar o conteúdo */
+  flex-direction: column; /* Direção em coluna */
 }
 
 header {
@@ -18,9 +20,13 @@ header {
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-around; /* Distribui os links uniformemente */
+  justify-content: center; /* Centraliza os links no cabeçalho */
   padding: 0;
   margin: 0;
+}
+
+nav li {
+  margin: 0 15px; /* Espaço horizontal entre os links */
 }
 
 nav a {
@@ -35,6 +41,7 @@ nav a:hover {
 section {
   padding: 20px;
   max-width: 1200px; /* Aumenta a largura máxima da seção */
+  width: 100%; /* Garante que a seção ocupe toda a largura disponível */
   margin: auto; /* Centraliza as seções */
   text-align: center; /* Centraliza o texto */
 }
