@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import data from '../data/links.json'
 
 function Header() {
   const toggleTheme = () => {
@@ -13,9 +14,11 @@ function Header() {
     <header>
       <nav>
         <ul>
-          <li><Link to="/">Sobre Mim</Link></li>
-          <li><Link to="/prj">Projetos</Link></li>
-          <li><Link to="/cnt">Contato</Link></li>
+          {data.map((i, index) => (
+            <li key={i}>
+              <Link to={i.path}>{i.description}</Link>
+            </li>
+          ))}
           <li><button id="theme-toggle" onClick={toggleTheme}>Trocar Tema</button></li>
         </ul>
       </nav>

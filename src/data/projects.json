@@ -1,0 +1,16 @@
+
+
+[
+    {
+        "name_project":"SerjaoBerranteiroServer",
+        "description":"Serjão Berranteiro Server is a library for the Lua language designed to develop APIs and desktop applications in a simple and intuitive way, maintaining flexibility in configuring the server according to your preferences. Bringing many functionalities such as the choice of a single process or multiple processes, an HTML engine, working with JSON, among others.",
+        "is_img":false,
+        "link":"https://github.com/SamuelHenriqueDeMoraisVitrio/SerjaoBerranteiroServer"
+    },
+    {
+        "name_project":"CandangoEngine",
+        "description":"Candango Engine is a lightweight Lua-based engine that allows you to generate dynamic HTML content by embedding Lua commands directly into HTML files. With this engine, you can leverage Lua's logic and functions to create flexible and dynamic web pages.",
+        "is_img":false,
+        "link":"https://github.com/SamuelHenriqueDeMoraisVitrio/candangoEngine"
+    }
+]
