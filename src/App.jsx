@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header_link from './conponents/headder/links'
-import Sobre from './conponents/sobre/sobre'
-import Contato from './conponents/contato/contato'
+import Header_link from './conponents/links'
+import Sobre from './conponents/sobre'
+import Contato from './conponents/contato'
 import Projetos from './conponents/projetos/projects'
 import './App.css'
 
